@@ -37,7 +37,7 @@ uint8_t cycle_period = CYCLE_PERIOD_100_S;
 
 // Choose a unique name for this MS430 sensor board so you can identify it.
 // Variables in HA will have names like: SENSOR_NAME.temperature, etc.
-#define SENSOR_NAME "storage"
+#define SENSOR_NAME "metriful_storageroom"
 
 // Change this to the IP address of the computer running Home Assistant. 
 // You can find this from the admin interface of your router.
