@@ -34,14 +34,14 @@ cycle_period = const.CYCLE_PERIOD_100_S
 
 # Choose a unique name for this MS430 sensor board so you can identify it.
 # Variables in HA will have names like: SENSOR_NAME.temperature, etc.
-SENSOR_NAME = "kitchen3"
+SENSOR_NAME = "homelab"
 
 # Specify the IP address of the computer running Home Assistant.
 # You can find this from the admin interface of your router.
-HOME_ASSISTANT_IP = "192.168.43.144"
+HOME_ASSISTANT_IP = "192.168.1.98"
 
 # Security access token: the Readme and User Guide explain how to get this
-LONG_LIVED_ACCESS_TOKEN = "PASTE YOUR TOKEN HERE WITHIN QUOTES"
+LONG_LIVED_ACCESS_TOKEN = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJkM2RjNTIwMzdhYTA0MjExOGMzMjJmODdlZDc4MGE2NiIsImlhdCI6MTcwNzYyMjA2OSwiZXhwIjoyMDIyOTgyMDY5fQ.ESp-eTfdTaobyLCvOTgwfQoGvJuRsh7RiolnPCGxh6U"
 
 # END OF USER-EDITABLE SETTINGS
 #########################################################
