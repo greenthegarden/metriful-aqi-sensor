@@ -19,6 +19,8 @@
 
 #include <Metriful_sensor.h>
 
+#define PARTICLE_SENSOR PARTICLE_SENSOR_SDS011
+
 //////////////////////////////////////////////////////////
 // USER-EDITABLE SETTINGS
 
@@ -43,7 +45,9 @@ ParticleData_t particleData = {0};
 
 
 void setup() 
-{  
+{ 
+
+  
   // Initialize the host pins, set up the serial port and reset:
   SensorHardwareSetup(I2C_ADDRESS);
 

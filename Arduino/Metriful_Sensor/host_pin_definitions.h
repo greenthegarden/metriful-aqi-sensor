@@ -37,7 +37,7 @@
   #define ISR_ATTRIBUTE
 
   #define READY_PIN 2   // Arduino digital pin 2 connects to RDY
-  #define L_INT_PIN 4   // Arduino digital pin 4 connects to LIT
+  #define L_INT_PIN 5   // Arduino digital pin 5 connects to LIT
   #define S_INT_PIN 7   // Arduino digital pin 7 connects to SIT
   /* Also make the following connections:
   Arduino pins GND, SCL, SDA to MS430 pins GND, SCL, SDA
